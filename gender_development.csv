@@ -1,4 +1,4 @@
-GDI Rank,Country,Gender Development Index (GDI),Human Development Index (Female),Human Development Index (Male),Life Expectancy at Birth (Female),Life Expectancy at Birth (Male),Expected Years of Education (Female),Expected Years of Education (Male),Mean Years of Education (Female),Mean Years of Education (Male),Estimated Gross National Income per Capita (Female),Estimated Gross National Income per Capita (Male)
+python --GDI Rank,Country,Gender Development Index (GDI),Human Development Index (Female),Human Development Index (Male),Life Expectancy at Birth (Female),Life Expectancy at Birth (Male),Expected Years of Education (Female),Expected Years of Education (Male),Mean Years of Education (Female),Mean Years of Education (Male),Estimated Gross National Income per Capita (Female),Estimated Gross National Income per Capita (Male)
 1,Norway,0.996,0.94,0.944,83.6,79.5,18.2,16.8,12.7,12.5,57140,72825
 2,Australia,0.976,0.922,0.945,84.5,80.3,20.7,19.7,13.1,12.9,33688,50914
 3,Switzerland,0.95,0.898,0.945,85,80.8,15.7,15.9,11.5,13.1,44132,69077
