@@ -1,9 +1,9 @@
 # girlsproject
 
-###Aim  
+### Aim  
 To create a webpage with a list of country names, when you click a country it takes you to a new webpage with some statistics for that country. (Stats from kaggle dataset)
 
-###Files 
+### Files  
 dataset.csv - *dataset with country names and information, downloaded from kaggle*  
 coding.py - *main python code*  
 homepage.html - *webpage with list of countries*  
