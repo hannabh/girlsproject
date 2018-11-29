@@ -3,27 +3,23 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+
 @app.route('/')
 
 def homepage_function():
-    #raw_data = pd.read_csv("dataset.csv", index_col=1)
-    #list = raw_data.index
-    # country_list: convert list to list of strings
-    return render_template("homepage.html", countries = "country_list")
+    raw_data = pd.read_csv("dataset.csv", index_col=1)
+    list = raw_data.index
+    return render_template("homepage.html", countries=list.astype(str).values.tolist())
 
 
-@app.route("/<country>/")
+@app.route("/data/<country>/")
 
-def info_page_function(country):
-    return render_template("info_page.html", country_info = country)
-    # raw_data = pd.read_csv("dataset.csv", index_col=1)
-    # full_data = raw_data.T.to_dict().values()
-    # country_data: dictionary with info about 1 country
-    # return render_template("info_page.html", country_info = country_data)
+def result(country):
+    raw_data = pd.read_csv("dataset.csv", index_col=1)
+
+    country_data = raw_data.loc[country.capitalize()]
+    data_as_dict = country_data.T.to_dict()
+    return render_template("info_page.html", country_info = data_as_dict)
 
 
 app.run(debug=True)
-
-
-
-#Note: return str(full_data) prints all the data to localhost
