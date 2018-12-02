@@ -3,8 +3,8 @@
 <html>
     <body>
 
-    {% for value in countries %}
-    {{ value }}
+    {% for country in countries %}
+    <a href="data/{{country}}"> {{ country }} </a>
     <br/>
     {% endfor %}
 
