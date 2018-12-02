@@ -1,13 +1,14 @@
 <!-- update this page to look nice! -->
 
 <html>
-    <body>
-
+    <body link = "black">
+    <center>
+        <h1> Choose your country: <br/> </h1>
     {% for country in countries %}
-    <a href="data/{{country}}"> {{ country }} </a>
+    <a href="data/{{country}}" style="text-decoration: none"> {{ country }} </a>
     <br/>
     {% endfor %}
-
+    </center>
     </body>
 </html>
 

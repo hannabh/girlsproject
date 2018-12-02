@@ -19,7 +19,7 @@ def result(country):
 
     country_data = raw_data.loc[country.capitalize()]
     data_as_dict = country_data.T.to_dict()
-    return render_template("info_page.html", country_info = data_as_dict)
+    return render_template("info_page.html", country_info = data_as_dict, country = country)
 
 
 app.run(debug=True)
