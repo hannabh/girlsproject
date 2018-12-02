@@ -16,8 +16,10 @@ def homepage_function():
 
 def result(country):
     raw_data = pd.read_csv("dataset.csv", index_col=1)
+    for value in raw_data:
+        value = value.upper()
 
-    country_data = raw_data.loc[country.capitalize()]
+    country_data = raw_data.loc[country]
     data_as_dict = country_data.T.to_dict()
     return render_template("info_page.html", country_info = data_as_dict, country = country)
 
