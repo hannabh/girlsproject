@@ -41,8 +41,8 @@ header {background: lightgrey;
 h2, h3, h4, h5, h6, p, ul, ol, li {
 	margin:0 0 24px;
 }
-h2, h3, h4, h5, h6 {
-	color:#575e68;
+h1, h2, h3, h4, h5, h6 {
+
 	font-weight:300;
 	line-height:1;
 	letter-spacing:2px;
@@ -50,10 +50,10 @@ h2, h3, h4, h5, h6 {
 }
 h1 {
 	margin-bottom:32px;
-	padding-top: 50px;
+	padding-top: 40px;
 
-	color:black;
-	font-size:60px;
+	color: darkgrey;
+	font-size:45px;
 }
 h2 {
 	margin-bottom:24px;
@@ -246,6 +246,8 @@ a {
 
 .site-footer {
 	background:#f8f8f8;
+	text-align: center;
+	padding-top: 60px;
 }
 .footer-links a {
 	color:inherit;
