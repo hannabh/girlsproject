@@ -1,0 +1,281 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+*/
+
+/******************************************
+/* COLOURS
+/*******************************************/
+
+/* add a list of colours used in the project */
+
+/******************************************
+/* SENSIBLE DEFAULTS
+/*******************************************/
+
+* {
+     box-sizing: border-box;
+}
+img {
+	display:block;
+	max-width:100%;
+	margin-bottom:32px;
+}
+
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+
+/* add type styles here */
+body {
+	color:#7c8389;
+	font-family:'Roboto', 'Helvetica', sans-serif;
+	font-weight:300;
+	line-height:1.6;
+}
+
+header {background: lightgrey;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+	margin:0 0 24px;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:#575e68;
+	font-weight:300;
+	line-height:1;
+	letter-spacing:2px;
+	text-transform:uppercase;
+}
+h1 {
+	margin-bottom:32px;
+
+	color:#fff;
+	font-size:60px;
+}
+h2 {
+	margin-bottom:24px;
+	font-size:42px;
+}
+h3 {
+	margin-bottom:18px;
+	font-size:22px;
+}
+h4 {
+	margin-bottom:18px;
+	font-size:20px;
+}
+.text-intro {
+	margin-bottom:48px;
+	font-size:26px;
+}
+.text-center {
+	text-align:center;
+}
+
+/******************************************
+/* GRID
+/*******************************************/
+
+.grid-row {
+	max-width:1300px;
+	margin:0 auto;
+}
+.grid-column {
+	float:left;
+	padding:0 32px;
+}
+.grid-whole         { width:100% }
+.grid-three-quarter { width: 75% }
+.grid-two-third     { width:66.67% }
+.grid-half          { width:50% }
+.grid-third         { width:33.33% }
+.grid-quarter       { width:25% }
+
+.section {
+	padding:104px 0;
+}
+.section-dark {
+	background:#191f23;
+	color:#a3a5a7;
+}
+.section-dark h1,
+.section-dark h2,
+.section-dark h3,
+.section-dark h4 {
+	color:#f8f8f8;
+}
+
+
+/******************************************
+/* BUTTONS & LINKS
+/*******************************************/
+
+.button {
+	display:inline-block;
+	min-width:180px;
+	padding:10px 20px;
+	margin:0 8px;
+
+	color:inherit;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:center;
+
+	border:1px solid;
+	border-radius:4px;
+}
+.button-light {
+	color:#fff;
+}
+.button-small {
+	min-width:0;
+	padding:4px 10px;
+}
+.button-large {
+	min-width:220px;
+	font-size:20px;
+}
+.button-cta {
+	color:#fff;
+	background:#619bd1;
+	border-color:#619bd1;
+}
+
+a {
+	color:#619bd1;
+}
+.link-list {
+	padding:0;
+	list-style:none;
+}
+.link-list li {
+	margin-bottom:16px;
+	padding-bottom:8px;
+	border-bottom:1px solid #ddd;
+}
+
+
+/******************************************
+/* CARD
+/*******************************************/
+
+.card {
+	padding:16px;
+	border:1px solid #ddd;
+	border-radius:4px;
+}
+
+
+/******************************************
+/* HEADER
+/*******************************************/
+
+.site-header .logo {
+	float:left;
+	margin:16px 0;
+	font-size:24px;
+	font-color: darkgrey;
+}
+
+.site-header {
+	padding:0 16px;
+}
+.site-header nav {
+	float:right;
+}
+.site-header ul {
+	margin:16px 0;
+}
+.site-header nav li {
+	display:inline-block;
+	margin:0 0 0 24px;
+	font-size:16px;
+}
+.site-header nav a {
+	color:#575e68;
+	text-decoration:none;
+}
+.site-header .button {
+	color:#fff;
+}
+
+
+/******************************************
+/* HERO
+/*******************************************/
+
+.hero {
+	padding:156px 0;
+	background-image:url('../images/banner.jpg');
+	background-size:cover;
+
+	color:#fff;
+	text-align:center;
+}
+
+/******************************************
+/* EXPLORE (DARK SECTION)
+/*******************************************/
+
+.explore-image {
+	margin-bottom:24px;
+}
+
+/******************************************
+/* SIDEBAR
+/*******************************************/
+
+.sidebar-module {
+	margin-bottom:52px;
+	padding-bottom:32px;
+	border-bottom:1px solid #ddd;
+}
+.sidebar-module:last-of-type {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+
+/******************************************
+/* FOOTER
+/*******************************************/
+
+.site-footer {
+	background:#f8f8f8;
+}
+.footer-links a {
+	color:inherit;
+	text-decoration:underline;
+}
+
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+     content: " ";
+     display: table;
+}
+.clearfix:after {
+     clear:both;
+}
+
+.is-hidden {
+     display: none;
+}
+.is-visible {
+     display: block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
