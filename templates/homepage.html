@@ -12,24 +12,16 @@
 	</head>
 
 
-
     <body link = "black">
 
 
 		<header class="site-header clearfix">
 			<span class="logo">CODEFIRSTGIRLS</span>
-			<nav>
-				<ul>
-
-					<li><a href="#">About</a></li>
-
-					<li><a href="#" class="button button-small button-cta">Go back</a></li>
-				</ul>
-			</nav>
 		</header>
 
     <center>
         <h1> Choose your country: <br/> </h1>
+
     {% for country in countries %}
     <a href="data/{{country}}" style="text-decoration: none"> {{ country }} </a>
     <br/>
